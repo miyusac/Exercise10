@@ -21,6 +21,7 @@ header {
     margin-right: 30px;
     background-color: #EEEEEE;
     position: static;
+    padding: 10px;
 }
 
 .main-visual1:last-child {
@@ -47,9 +48,6 @@ header {
     background-image: url(img/flow01.png);
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
     margin-bottom: 15px;
 }
 
@@ -59,9 +57,6 @@ header {
     background-image: url(img/flow02.png);
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
     margin-bottom: 15px;
 }
 
@@ -71,20 +66,16 @@ header {
     background-image: url(img/flow03.png);
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
     margin-bottom: 15px;
 }
 
-
 .main-visual1-content3 {
     width: 280px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main-visual1-content3 h {
+.main-visual1-title3 {
     margin-bottom: 5px;
 }
 
@@ -93,4 +84,51 @@ footer {
     width: 100%;
     height: 50px;
     background-color: #AAAAAA;
+}
+
+@media screen and (max-width:768px) {
+    header {
+        width: 100%;
+    }   
+
+    .main-visual {
+        width: 100%;
+        margin: 50px auto;
+        display: block;
+    }
+
+    .main-visual1 {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-visual1:last-child {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-visual1-content2 {
+        width:auto;
+        height: 150px;
+    }
+
+    .main-visual2-content2 {
+        width: auto;
+        height: 150px;
+    }
+
+    .main-visual3-content2 {
+        width: auto;
+        height: 150px;
+    }
+
+    .main-visual1-content3 {
+        width: auto;
+    }
+
+    footer {
+        width: 100%;
+    }
 }
